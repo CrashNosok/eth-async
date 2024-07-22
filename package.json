@@ -1,0 +1,22 @@
+{
+  "name": "eth-async",
+  "version": "1.0.0",
+  "main": "client.js",
+  "scripts": {
+    "test": "tsc && node dist/test.js",
+    "start": "tsc && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "ahillary",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "axios": "^1.7.2",
+    "decimal.js": "^10.4.3",
+    "ethers": "^6.13.1",
+    "https-proxy-agent": "^7.0.5",
+    "typescript": "^5.5.3",
+    "user-agents": "^1.1.269"
+  }
+}

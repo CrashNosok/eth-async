@@ -1,0 +1,28 @@
+# Ignore directories
+.idea/
+.vscode/
+dist/
+files/
+node_modules/
+
+# Ignore specific file
+/src/test.ts
+
+# Ignore other specific files
+import.xlsx
+settings.json
+wallets.db
+application.log
+.DS_Store
+package-lock.json
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
